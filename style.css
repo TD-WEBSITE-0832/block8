@@ -26,7 +26,40 @@ body{
 
 
 
+
+
+
+
+.bt1, .bt2, .bt3{
+    border: none;
+    background: brown;
+    color: whitesmoke;
+    height: 20px;
+    transition: all 0.6s ease-in-out;
+    width: 100px;
+    padding: 5px;
+    outline: none;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s ease-in-out;
+}
+
+.card:hover .bt1{
+    border-right: 1px solid black;
+    transition: all 0.6s ease-in-out;
+}
+.card:hover .bt3{
+    border-left: 1px solid black;
+    transition: all 0.6s ease-in-out;
+}
+
+
+
+
 .card:hover{
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     transition: all 0.6s ease-in-out;
 }
