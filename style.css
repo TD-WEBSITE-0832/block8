@@ -1,0 +1,32 @@
+body{
+    background: rgba(112, 112, 112, 0.432);
+}
+.block{
+    max-width: 100%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 160px;
+}
+.card{
+    width: 300px;
+    border-radius: 10px;
+    height: 100px;
+    padding: 20px;
+    background: red;
+    transition: all 0.6s ease-in-out;
+}
+
+
+
+
+
+
+.card:hover{
+    transform: rotate(90deg);
+    transition: all 0.6s ease-in-out;
+}
