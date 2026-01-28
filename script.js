@@ -25,6 +25,11 @@ console.log(result)
 
 
 
+alert("Hello no no " + alert("40" + "22"))
+
+
+
+
 
 const f="500"
 const g="300"
