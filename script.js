@@ -70,15 +70,21 @@ let dd="5"
 
 
 
-let secund="60"
-let min="60"
-let hour="24"
-let day="365"
-let year="100"
-let total=secund*min*hour*day*year
+// let secund="60"
+// let min="60"
+// let hour="24"
+// let day="365"
+// let year="100"
+// let total=secund*min*hour*day*year
 
-alert("total "+ total)
+// alert("total "+ total)
 
-alert("new " + secund*min*hour*day*year*50)
+// alert("new " + secund*min*hour*day*year*50)
 
 
+
+
+let sec="60"
+let dey="60"
+let diff=sec*dey
+alert("deff" + diff)
