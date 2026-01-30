@@ -46,5 +46,15 @@
 
 
 
-let mat=confirm('5*25')
-alert('125' +mat)
+// let mat=confirm('5*25')
+// console.log("125"+mat)
+
+
+// let mid=confirm(5+120)
+// alert("defet"+mid)
+
+
+
+let mide=prompt("12-4=" + (12+12))
+confirm("8"+mide)
+alert("wou win"+mide)
