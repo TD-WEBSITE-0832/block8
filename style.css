@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/053/733/179/small/every-detail-of-a-sleek-modern-car-captured-in-close-up-photo.jpg);
+    background-size: cover;
+    background-position: none;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+.card{
+    padding: 20px;
+    width: 140px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.404);
+    border-radius: 15px;
+}
+
+
+.tx1{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.bt{
+    width: 140px;
+    padding: 10px;
+    height: 50px;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    transition: all 0.6s ease-in-out; 
+}
+.bt:hover{
+    background: black;
+    color: whitesmoke;
+    transition: all 0.6s ease-in-out; 
+}
