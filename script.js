@@ -55,6 +55,16 @@
 
 
 
-let mide=prompt("12-4=" + (12+12))
-confirm("8"+mide)
-alert("wou win"+mide)
+// let mide=prompt("12-4=" + (12+12))
+// confirm("8"+mide)
+// alert("wou win"+mide)
+
+
+
+// let mid=5*0
+// alert(mid)
+
+
+
+
+
